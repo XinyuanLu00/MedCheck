@@ -10,6 +10,7 @@
 ## Table of Contents
 
 - [Environments and Packages](#environments-and-packages)
+- [System UI Screenshots](#system-ui-screenshots)
 - [System Architecture](#system-architecture)
 - [Project Structure](#project-structure)
 - [Component 1: PDF Parser](#component-1-pdf-parser)
@@ -38,6 +39,15 @@ pip install faiss-cpu
 pip install PyMuPDF
 pip install tqdm
 ```
+
+---
+
+## System UI Screenshots
+1. PDF Parsing & Upload Interface
+![The PDF parser interface](./parser.png)
+2. Claim Retrieval & Table Fact-Checking UI
+![The claim retrieval interface](./medcheck_ui.png)
+![The final fact-checking results](./medcheck_demo.mp4)
 
 ---
 
