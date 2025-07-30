@@ -1,0 +1,54 @@
+Microorganisms2022,10,434
+3of14
+groups, resulting in 17 individuals per group plus 20% losses for a final sample size of
+n = 20 subjects per group. The control group received bottles containing 60 mL of sterile
+water each. The sucralose group received bottles equivalent to 48 mg of pure liquid
+sucralose (American Health Foods & Ingredients, San Diego, CA, USA) dissolved in
+60 mL of sterile water each. All participants had breakfast between 7 and 9 a.m. every
+day, and sucralose or water sips were drunk ten minutes before breakfast. Daily ingestion
+of 48 mg of sucralose resembles consumption of four commercial Splenda? packets per
+day, representing less than 15% of the Acceptable Daily Intake (ADI) set by the Food and
+Drug Administration (FDA), and less than 5% of the ADI established by the Joint Food and
+Agriculture Organization (FAO) /World Health Organization Expert Committee on Food
+Additives (JECFA) [10,11]. At the beginning of the study, all participants were subjected
+to an oral glucose tolerance test (OGTT) for 180 min, using 75 g of glucose dissolved in
+sterile water. We obtained blood samples from all study subjects starting with oral glucose
+load at min zero and every 15 min for 180 min for quantifying the serum levels of glucose
+and insulin using an intravenous catheter closed system. After ten weeks, we performed a
+second OGTT in all participants to quantify the blood glucose and insulin levels again, as
+described before. We evaluated the adherence rate to water or sucralose consumption in
+the weekly appointments by counting empty bottles in a personal interview. At the study's
+beginning and end, we requested all participants to bring a stool sample for bacterial DNA
+isolation. We stored the stool samples at -80 °C for no more than six months.
+2.3.Bacterial SpeciesIdentification
+We isolated bacterial DNA from stool samples of all study volunteers using the
+QI-Aamp Power Fecal DNA kit (QIAGEN, Germantown, MD, USA). DNA samples
+(100 ng/μL) were individually placed in the BIO-RAD CFX96 Real-Time System ther-
+mal cycler using SsoAdvanced Universal SYBR Green Supermix (Bio-Rad Laboratories,
+Hercules, CA, USA). A Pan-bacteria universal primer was used as a control gene for
+CT calculation. Results are expressed as fold change by comparing bacterial gene abun-
+dance in triplicates at the beginning and the end of the intervention. Primers sequences
+used in this study are as follow: phylum Actinobacteria, species Bifidobacterium longum, for-
+ward 5'-CGCACATGCTCATCGAACTG-3' and reverse 5'-GATGATGCCGTCCGAAAACG-
+ 3' (product length 77 bp); phylum Bacteroidetes, species Bacteroides uniformis, forward
+5'-CCAACAGCTTTTCCGGGTTG-3' and reverse 5'-AAGGCCTTCCGAGAGGGTAT-3'
+(product length 574 bp); phylum Firmicutes, species Blautia coccoides (formerly known
+as Clostridium coccoides), forward 5'-GTAGAGCTGATCCCGAGCAC-3' and reverse 5'-
+TCGTACGATACGGAAGCAGC-3′ (product length 792 bp); phylum Firmicutes, species
+Lactobacillus acidophilus, forward 5'-GCTTTGCAAGTGTCTGGTGG-3'; reverse 5'-GATG-
+TGCCCACGCATCAATC-3' (product length 172 bp); Pan-bacteria universal primer, for-
+ward 5'-TCCTACGGGAGGCAGCAGT-3' and reverse 5'-GACTACCAGGGTATCT-
+AATCCTGTT-3' (product length 466 bp). Quantitative polymerase chain reaction (qPCR)
+experiments were reported according to the Minimum Information for Publication of
+Quantitative Real-Time PCR Experiments (MIQE) guidelines.
+2.4.Statistics
+ We evaluated the normality of data using the Shapiro-Wilk test. The primary outcome
+of this study was the difference in bacterial abundance. Glucose and insulin levels, before
+and after water or sucralose exposure, were considered the secondary outcome. We
+analyzed data for glucose and insulin levels from OGTT by two-tailed 2-way ANOVA with
+Bonferroni correction. We compared the area under the curve (AUC) of insulin and glucose
+before and after water or sucralose exposure by the paired Student's T-test, or the unpaired
+Student's T-test, depending on the group comparison. We compared the relative bacterial
+abundance by the Wilcoxon matched-pairs signed-rank test, or the Mann-Whitney U test,
+depending on the group comparison. We showed the results as mean ± standard deviation
+or box plot using the GraphPad Prism 7.0 software (GraphPad Software, La Jolla, CA 92037,

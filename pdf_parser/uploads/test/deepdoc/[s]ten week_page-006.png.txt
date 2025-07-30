@@ -1,0 +1,55 @@
+Microorganisms 2022,10,434
+6 of 14
+(p = 0.87) (Figure 3A). At the end of the study, we observed no differences between control
+and sucralose groups for the AUCG again (p = 0.27) (Figure 3A). Conversely, volunteers
+drinking sucralose for ten weeks exhibited a significant 8 ± 1.7% higher AUCG than that
+found basally at the beginning of the study (p = 0.02) (Figure 3A). The AUC of insulin
+(AUCl) showed no differences between control and sucralose groups at the beginning
+(p = 0.99) and end (p = 0.96) of the study (Figure 3B). In parallel, participants drinking
+water (p = 0.94) or sucralose (p = 0.83) for ten weeks exhibited similar AUCIs to those found
+basally at the beginning of the study (Figure 3B).
+A
+B
+θControl 10weeks
+Control 10 weeks
+Control O weeks
+→Control O weeks
+150-
+150-
+(mg)
+100
+100
+ucose
+50
+0153045607590105120180
+0153045607590105120180
+Time (min)
+Time (min)
+C
+D
+-Sucralose 10 weeks
+Sucralose10weeks
++SucraloseOweeks
+·SucraloseOweeks
+150-
+150-
+dl)
+100
+100
+ose
+50
+0153045607590105120180
+0153045607590105120180
+Time (min)
+Time (min)
+Figure 2. Blood levels of glucose and insulin during oral glucose tolerance test. (A) Volunteers
+receiving water for ten weeks showed no differences in blood glucose curves compared to the
+beginning of the study (O weeks). (B) Participants receiving water for ten weeks exhibited no
+ differences in serum insulin curves compared to the beginning of the study. (C) Volunteers drinking
+sucralose for ten weeks showed no diferences in blood glucose curves compared to the beginning
+of the study. (D) Participants consuming sucralose for ten weeks exhibited a significant increase
+in serum insulin, with the maximum peak occurring 30 min after glucose load, compared to that
+found at the beginning of the study. We show control and sucralose groups at O weeks in closed
+circles, whereas both groups are shown in open circles at ten weeks. We express data as mean
+± standard deviation. We estimated significant differences by two-tailed 2-way ANOVA with
+Bonferroni correction. Asterisks (*) indicate significant differences when p < 0.05.

@@ -1,0 +1,84 @@
+microorganisms
+MDPI
+Article
+Ten-Week Sucralose Consumption Induces Gut Dysbiosis and
+Altered Glucose and Insulin Levels in Healthy Young Adults
+Lucia A. Mendez-Garcia 1,+@, Nallely Bueno-Hernandez 2,t, Miguel A. Cid-Soto 3, Karen L. De Leon 2,
+Viridiana M. Mendoza-Martinez 2@, Aranza J. Espinosa-Flores 2, Miguel Carrero-Aguirre 2,
+ Marcela Esquivel-Velazquez 2, Mireya Leon-Hernandez 2, Rebeca Viurcos-Sanabria 14, Alejandra Ruiz-Barranco 5,
+ Julian M. Cota-Arce 6, Angelica Alvarez-Lee 6, Marco A. De Leon-Nava 6, Guillermo Melendez 7,*
+and Galileo Escobedo 1,*
+Laboratory of Immunometabolism, Research Division, General Hospital of Mexico,
+Mexico City 06720, Mexico; angelica.mendez.86@hotmail.com (L.A.M.-G.); viurcos.reb@hotmail.com (R. V.-S.)
+2
+ Laboratory for Proteomics and Metabolomics, General Hospital of Mexico, Mexico City 06720, Mexico;
+nallely_bh5@yahoo.com.mx (N.B.-H.); karendeleonb@yahoo.com.mx (K.L.D.L.);
+viridiana_2909@hotmail.com (V.M.M.-M.); jhosadara.espinosa@gmail.com (A.J.E.-F.);
+carreroam.90@hotmail.com (M.C.-A.); esquivel.marcela@gmail.com (M.E.-V.);
+leonhmireya@gmail.com (M.L.-H.)
+ Immunogenomics and Metabolic Diseases Laboratory, Instituto Nacional de Medicina Genomica,
+Mexico City 14610, Mexico; macid@inmegen.gob.mx
+4
+PECEM, Facultad de Medicina, Universidad Nacional Autonoma de México, Mexico City 04510, Mexico
+check for
+5
+ Clinical Nutrition Division, General Hospital of Mexico, Mexico City 06720, Mexico; aleruba30@hotmail.com
+updates
+ Department of Biomedical Innovation, Center for Scientific Research and Higher Education of
+ Citation: Mendez-Garcia, L.A.;
+Ensenada (CICESE), Baja California 22860, Mexico; jmcotaarce@gmail.com (J.M.C.-A.);
+Bueno-Hernandez, N.; Cid-Soto,
+ibeth@cicese.mx (A.A.-L.); madeleon@cicese.mx (M.A.D.L.-N.)
+M.A.; De Leon, K.L., Mendoza-
+Facultad de Salud Publica y Nutricion, Universidad Autonoma de Nuevo Leon, Monterrey 64460, Mexico
+Martinez, V.M.; Espinosa-Flores, A.J.;
+Correspondence: melendez651@gmail.com (G.M.); gescobedog@msn.com (G.E.);
+Carrero-Aguirre, M.; Esquivel-
+Tel.: +52-552-789-2000 (ext. 5646) (G.E.)
+Velazquez, M.; Leon-Hernandez, M.;
+十
+These authors contributed equally to this study.
+Viurcos-Sanabria, R.; et al. Ten-Week
+Sucralose Consumption Induces Gut
+Abstract: Sucralose consumption alters microbiome and carbohydrate metabolism in mouse models.
+ Dysbiosis and Altered Glucose and
+However, there are no conclusive studies in humans. Our goals were to examine the effect of
+ Insulin Levels in Healthy Young
+sucralose consumption on the intestinal abundance of bacterial species belonging to Actinobacteria,
+Adults. Microorganisms 2022, 10, 434.
+Bacteroidetes, and Firmicutes and explore potential associations between microbiome profiles and
+https://doi.org/10.3390/
+glucose and insulin blood levels in healthy young adults. In this open-label clinical trial, volunteers
+microorganisms10020434
+randomly drank water, as a control (n = 20), or 48 mg sucralose (n = 20), every day for ten weeks.
+Academic Editor: Pramod Gopal
+At the beginning and the end of the study, participants were subjected to an oral glucose tolerance
+test (OGTT) to measure serum glucose and insulin every 15 min for 3 h and provided fecal samples
+Received: 14 January 2022
+to assess gut microbiota using a quantitative polymerase chain reaction. Sucralose intake altered
+Accepted: 9 February 2022
+ Published: 14 February 2022
+the abundance of Firmicutes without affecting Actinobacteria or Bacteroidetes. Two-way ANOVA
+revealed that volunteers drinking sucralose for ten weeks showed a 3-fold increase in Blautia coccoides
+Publisher's Note: MDPI stays neutral
+and a 0.66-fold decrease in Lactobacillus acidophilus compared to the controls. Sucralose consumption
+with regard to jurisdictional claims in
+increased serum insulin and the area under the glucose curve compared to water. Long-term sucralose
+ingestion induces gut dysbiosis associated with altered insulin and glucose levels during an OGTT.
+iations.
+Keywords: sucralose; microbiome; glucose load; Firmicutes; Blautia coccoides; dysbiosis
+Copyright: @ 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+1. Introduction
+distributed under the terms and
+Sucralose is a non-caloric artificial sweetener (NAS) that confers a sweet taste to food
+conditions of the Creative Commons
+and beverages without increasing calorie intake [1]. However, numerous studies have
+Attribution (CC BY) license (https:/ /
+recently shown that sucralose consumption is associated with alterations in the metabolism
+creativecommons.org/licenses/by/
+of glucose and insulin by disrupting the balance of the gut microbiome [2-4].
+4.0/).
+Microorganisms 2022, 10, 434. https: / /doi.org/10.3390/microorganisms10020434
+https: / /www.mdpi.com/journal/microorganisms

@@ -1,0 +1,38 @@
+Microorganisms 2022,10,434
+9 of 14
+Figure 5 illustrates statistical correlations of glucose and insulin values with changes
+in the relative abundance of Lactobacillus acidophilus and Blautia coccoides after water or
+sucralose consumption. In the control group, participants exhibited a positive correlation
+ between AUCG and AUCI (r = 0.60, p = 0.01) (Figure 5A). AUCG also displayed a strong
+inverse correlation with Lactobacillus acidophilus (r = -0.56, p = 0.02) (Figure 5A). In turn,
+Bifidobacterium longum had a positive association with Lactobacillus acidophilus (r = 0.51,
+ p = 0.03) (Figure 5A). Sucralose consumption considerably modified the intrinsic associa-
+ tions of gut microbiota with glucose and insulin levels. Volunteers in the sucralose group
+exhibited a positive association of AUCG with AUCI (r= 0.63, p < 0.01) (Figure 5B). More-
+over, AUCG displayed strong inverse correlations with Lactobacillus acidophilus (r = -0.59,
+p < 0.02) and Blautia coccoides (r = -0.53, p < 0.02) (Figure 5B). Unexpectedly, AUCI exhib-
+ited a strong inverse relationship with Lactobacillus acidophilus (r = -0.55, p < 0.02), while
+Lactobacillus acidophilus showed a significant positive correlation with Bacteroides uniformis
+(r = 0.57, p < 0.02) (Figure 5B).
+-1.0
+-0.5
+0.0
+0.5
+1.0
+BLA-
+LAC-
+r=0.51
+BIF-
+P=0.03
+AUCI-
+r=0.6
+r=-0.56
+AUCG
+P<0.01
+P=0.02
+AUCI
+BIF
+LAC
+BAC
+BLA
+Figure 5.Cont.

@@ -1,0 +1,56 @@
+Microorganisms 2022,10, 434
+11 of 14
+Lactobacillus acidophilus is another essential member of the phylum Firmicutes with
+prominent actions in regulating insulin and glucose levels. A previous study in Sprague.
+Dawley rats demonstrated that low amounts of sucralose have antibacterial effects on Lacto-
+bacillus acidophilus [23]. In line with this evidence, our study indicates that sucralose intake
+for ten weeks decreases the relative abundance of Lactobacillus acidophilus in non-insulin-
+resistant young adults. Considering that consumption of Lactobacillus acidophilus improves
+carbohydrate metabolism in obese subjects and patients with type 2 diabetes [24,25], it is
+feasible that sucralose contributes to the abnormal insulin and glucose behavior by decreas-
+ing the Lactobacillus acidophilus population. Further clinical studies are needed to elucidate
+how sucralose reduces the intestinal amount of Lactobacillus acidophilus, contributing to
+ altered glucose and insulin values in human beings.
+The effects of sucralose consumption on the human gut microbiota are still a matter
+of debate. While previous clinical trials report no effects of sucralose on the relative
+abundance of intestinal bacteria [7,8], we found that consumption of this NAS increases
+the relative abundance of Firmicutes without affecting Bacteroidetes and Actinobacteria.
+ We may attribute these controversial findings to variations in the experimental design,
+ including duration of intervention and sucralose dosage. Ahmad and coworkers provided
+sucralose in two 2-week periods, incorporating a 4-week washout period [7]. Furthermore,
+according to the FDA, they used 40% of the ADI for sucralose [10,11]. Thomson and their
+colleagues performed a short-term clinical study for a week, using 229% of the ADI for
+this NAS [8]. Conversely, we opted for a long-term sucralose exposure for 10 weeks, using
+48 mg sucralose per day representing less than 15% of the ADI for this NAS. Interestingly,
+the effects of sucralose consumption on insulin sensitivity appear in a bell-shaped dose-
+response form in humans [26], where the most potent effects present at much lower doses
+than those recommended in the ADI [12,13]. The microbiome composition may follow the
+same behavior, showing the most notable changes in response to low sucralose amounts. We
+think it is of great relevance to clarify whether sucralose acts differently depending on the
+size of the dose administered; conducting crossover clinical trials facilitates a comparison
+between the effects of low and high amounts of sucralose upon the gut microbiome.
+Additionally, we must consider other sources of variation in these results, such as genetic
+background, diet habits, and lifestyles, which may modify the effects of sucralose on the
+human intestinal microbiome.
+The relevance of studying the effects of long-term sucralose consumption on the gut
+ microbiome goes beyond insulin homeostasis and glycemic control [27,28]. A study in mice
+showed that sucralose ingestion for six weeks increases the relative abundance of bacteria
+belonging to the phylum Firmicutes, such as Clostridium symbiosum and Peptostreptococcus
+anaerobius [29]. Notably, sucralose-induced intestinal dysbiosis also appeared to aggravate
+azoxymethane (AOM)/dextran sulfate sodium (DSS)-induced colitis and colitis-associated
+colorectal cancer in these animals [29,30]. Likewise, sucralose ingestion resulted in gut
+dysbiosis and pronounced proteomic changes in the liver of mice, where most of the
+overexpressed proteins related to enhanced hepatic inflammation [31]. Thus, perturbations
+ of intestinal microbiota, mediated by long-term sucralose consumption, not only seem
+associated with altered glucose and insulin homeostasis, but also with the promotion of
+inflammatory responses in the gut and liver. However, very recent studies also suggest
+that NAS, such as sucralose, ameliorates DSS-induced colitis symptoms by improving
+the intestinal barrier integrity and reducing intestinal inflammation via gut microbiota
+alteration in mice [32]. Therefore, we still need to conduct additional studies to clarify
+whether the adverse effects of sucralose on the gut microbiome could also increase the risk
+of developing inflammatory diseases, such as colitis and hepatitis in humans.
+We are inclined to point out some strengths and limitations of this study. The adherence
+rate to water or sucralose consumption was acceptable by standing above 80% in our study
+population. Sample size (n = 20 per group) could be a limitation of the study. Regardless,
+it was a randomized clinical trial, which included daily follow-ups with volunteers for
+10 weeks. Moreover, we should assess the effects of sucralose ingestion on gut microbiota

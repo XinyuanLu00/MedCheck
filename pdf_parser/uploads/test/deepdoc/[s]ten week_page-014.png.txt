@@ -1,0 +1,12 @@
+Microorganisms2022,10,434
+14of 14
+30.
+ Guo, M.; Liu, X.; Tan, Y.; Kang, F.; Zhu, X.; Fan, X.; Wang, C.; Wang, R.; Liu, Y.; Qin, X.; et al. Sucralose enhances the susceptibility
+to dextran sulfate sodium (DsS) induced colitis in mice with changes in gut microbiota. Food Funct. 2021, 12, 9380-9390. [CrossRef]
+31.
+Liu, C.W.; Chi, L.; Tu, P.; Xue, J.; Ru, H.; Lu, K. Quantitative proteomics reveals systematic dysregulations of liver protein
+metabolism in sucralose-treated mice. J. Proteom. 2019, 30, 1-10. [CrossRef]
+32.
+ Zhang, X.; Gu, J.; Zhao, C.; Hu, Y.; Zhang, B.; Wang, J.; Lv, H.; Ji, X.; Wang, S. Sweeteners Maintain Epithelial Barrier Function
+Through the miR-15b/RECK/MMP-9 Axis, Remodel Microbial Homeostasis, and Attenuate Dextran Sodium Sulfate-Induced
+Colitis in Mice. J. Agric. Food Chem. 2022, 12, 171-183. [CrossRef]

@@ -1,0 +1,54 @@
+Microorganisms2022,10,434
+2of 14
+Mice drinking sucralose for 6 months exhibit changes in gut bacteria belonging to the
+phylum Firmicutes [4], among which Blautia coccoides and Lactobacillus acidophilus have been
+shown to play key roles in insulin resistance and lipid metabolism [5,6]. Similarly, mice
+drinking sucralose for eleven weeks show glucose intolerance associated with an increased
+intestinal abundance of bacteria belonging to the phyla Bacteroidetes and Actinobacteria,
+such as Bacteroides uniformis and Bifidobacterium longum [2]. Conversely, the effect of sucralose
+consumption on gut microbiota composition still shows controversial results in humans.
+ Adults consuming 0.136 g sucralose for two 14-day periods showed no changes in the intestinal
+abundance of bacteria belonging to the phyla Bacteroidetes and Actinobacteria [7]. Likewise, a
+clinical study conducted in male volunteers that took 780 mg sucralose for 7 days revealed no
+significant effects on the intestinal abundance of bacteria belonging to the phylum Firmicutes [8]
+In contrast, a recent study examining fecal samples from thirteen adult volunteers reported
+ that sucralose directly increases the abundance of intestinal bacteria belonging to the genera
+ Escherichia, Shigell, and Bilophila [9]. As we have outlined here, sucralose intake appears to
+associate with dysbiosis-related metabolic alteration. However, the vast majority of studies
+have been conducted in experimental animal models and evidence in humans is still uncertain.
+We conducted a clinical trial in healthy young adults to investigate the effect of long-
+term sucralose ingestion on the intestinal abundance of four bacterial species representative
+of the phyla Actinobacteria, Bacteroidetes, and Firmicutes as a primary outcome. As a
+secondary outcome, we explored whether sucralose-induced dysbiosis was potentially
+linked to alterations in glucose and insulin levels during an oral glucose load.
+2. Materials and Methods
+2.1.Subjects
+ We enrolled 47 healthy adult volunteers of both sexes, who were screened by means
+of the homeostasis model assessment of insulin resistance (HOMA-IR) values ≤2.5 and
+body mass index (BMI) 18.5-29.9 kg/m2, aging between 18 and 35 years in this open-label
+ randomized clinical trial. All study participants were not habitual consumers of sucralose-
+containing products and provided written informed consent to participate in the study. We
+conducted this trial in rigorous adherence to the principles described in the 1964 Declaration
+of Helsinki and its posterior amendment in 2013 (registration of the ethical code approval:
+D1/16/301/03/022). According to a list dispensed, participants agreed to avoid consuming
+any non-caloric sweeteners during the study. They also decided to follow a balanced diet
+consisting of vegetables, fruits, grains, proteins, and dairy that we recommended according
+to the physical activity level and monitored weekly via phone call interview. We also
+calculated the amount of protein, carbohydrates, and lipids ingested by each participant
+weekly. Moreover, we registered each participant's physical activity levels weekly, which
+ mainly consisted of running for no more than forty minutes, two or three days per week. We
+excluded volunteers from the study who were previously diagnosed with any of the following
+diseases: type 2 diabetes; hypertension; chronic liver disease; kidney disease; malabsorption
+disorder; short bowel syndrome; functional gastrointestinal disorders; infectious diseases.
+Those who had been pregnant, lactating, or underwent antibiotic therapy in the last six
+months were also excluded. We also considered alcohol use and smoking as exclusion criteria
+Subjects who agreed to participate in the study reported they usually drank ≥1 drink per
+month but <1 drink per week (1 drink = 14 g pure alcohol), and they were lifelong non-
+smokers. We eliminated participants from the study who did not attend at least 80% of the
+medical consultation and weekly appointments and those who did not drink the bottle of
+water or sucralose at least 80% of the ten weeks the study lasted. This study contains partial
+results of the work registered at clinicaltrials.gov (identifier code: NCT03703141) and meets
+the Consolidated Standards of Reporting Trials (CONSORT) guidelines.
+2.2.StudyDesign
+Estimation of sample size was performed by the GPower v.3.1.9.2 program, expecting
+an effect size of 1.1 with an alpha error of 0.05 and a power of 95% for two independent

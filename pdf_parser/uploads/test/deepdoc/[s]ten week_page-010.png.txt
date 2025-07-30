@@ -1,0 +1,55 @@
+Microorganisms 2022,10, 434
+10of 14
+B
+BLA-
+r=0.57
+LAC
+P=0.02
+BIF-
+r=-0.55
+AUCI-
+P=0.02
+r= 0.63
+r=-0.59
+r=-0.53
+AUCG-
+P<0.01
+P=0.01
+P=0.02
+T
+T
+AUCI
+BIF
+LAC
+BAC
+BLA
+Figure 5. Heat maps showing correlations between the gut microbiome and glucose and insulin
+serum values. (A) Volunteers receiving water for ten weeks showed that AUCG positively correlated
+with AUCI and inversely associated with Lactobacillus acidophilus (LAC). Bifidobacterium longum (BIF)
+had a positive correlation with LAC. (B) Volunteers drinking sucralose every day for ten weeks
+showed a positive association of AUCG with AUCI. Moreover, AUCG inversely correlated with
+LAC and Blautia coccoides (BLA). AUCI exhibited a strong inverse relationship with LAC, while LAC
+showed a significant positive correlation with Bacteroides uniformis (BAC). We calculated coefficients
+(r) and p values by using the Spearman's correlation model. Inverse correlations are stronger as blue
+ color increases, whereas positive correlations are stronger as red color increases. We considered a
+correlation as significant when p < 0.05. AUCG, area under the curve of glucose; AUCI, area under
+the curve of insulin.
+4.Discussion
+Emerging evidence has linked the effect of sucralose on glucose and insulin blood
+levels with changes in the gut microbiome [12-15]. In line with this information, we
+confirmed that long-term sucralose consumption causes dysbiosis in healthy non-insulin
+resistant young adults, affecting the relative abundance of bacteria mainly belonging to the
+phylum Firmicutes.
+ In humans, the gut microbiome is composed of over 3 × 1013 bacteria [16], among
+which the phylum Firmicutes appear to play a central role in the metabolism of glucose
+and insulin [17]. Sucralose ingestion increases the relative amount of Firmicutes as hy-
+perglycemia and insulin resistance rise in mice [3]. Patients with hyperinsulinemia and
+glucose intolerance show a higher intestinal abundance of Firmicutes, especially Blautia
+coccoides [18-20]. Blautia coccoides seem to counter the abnormal glucose and insulin home-
+ostasis in patients with metabolic syndrome by producing butyrate that contributes to
+maintaining normal blood glucose levels [21,22]. Interestingly, we found that sucralose
+ingestion instigates an inverse relationship between AUCG and Blautia coccoides, which
+may decrease butyrate levels, inducing increased glucose release during the OGTT. Al-
+though plausible, this hypothesis still needs to be responded to by measuring butyrate
+levels to know whether changes in the intestinal abundance of Blautia coccoides may lead to
+variations in this metabolite and, consequently, an elevation in the AUCG.

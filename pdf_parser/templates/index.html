@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedCheck: Scientific Claim Verifier</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .search-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .search-box {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 15px 20px;
+      font-size: 1.1rem;
+      border: 2px solid #e9ecef;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .search-input:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+    }
+    .search-button {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: #007bff;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    .results-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-top: 30px;
+      display: none;
+    }
+    .claim-result {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid #007bff;
+    }
+    .claim-result.supported { border-left-color: #28a745 !important; }
+    .claim-result.refuted { border-left-color: #dc3545 !important; }
+    .claim-result.partially-supported { border-left-color: #e8f5e9 !important; }
+    .claim-result.partially-refuted { border-left-color: #ffebee !important; }
+    .claim-result.unverified { border-left-color: #fff3cd !important; }
+    .claim-result.not-relevant { border-left-color: #e9ecef !important; }
+
+    .label-badge {
+      display: inline-block;
+      padding: 0.4em 1.1em;
+      font-size: 1em;
+      border-radius: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      margin-top: 8px;
+    }
+    .status-badge.supported {
+      background: #d4edda;
+      color: #155724;
+    }
+    .status-badge.refuted {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    .status-badge.partially-supported {
+      background: #e8f5e9;
+      color: #2e7d32;
+    }
+    .status-badge.partially-refuted {
+      background: #ffebee;
+      color: #c62828;
+    }
+    .status-badge.unverified {
+      background: #fff3cd;
+      color: #856404;
+    }
+    .status-badge.not-relevant {
+      background: #e9ecef;
+      color: #495057;
+    }
+
+    .relevance-score {
+      font-size: 0.9rem;
+      color: #6c757d;
+      margin-bottom: 10px;
+    }
+    .upload-section {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .progress-container {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      border: 1px solid #e9ecef;
+    }
+    .progress-bar {
+      width: 100%;
+      height: 6px;
+      background-color: #e9ecef;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background-color: #4CAF50;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+    .progress-bar-fill.loading {
+      width: 100%;
+      background: linear-gradient(90deg, #4CAF50 0%, #8BC34A 50%, #4CAF50 100%);
+      background-size: 200% 100%;
+      animation: loading 2s infinite linear;
+    }
+    @keyframes loading {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+    .progress-text {
+      font-size: 14px;
+      color: #495057;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    .progress-detail {
+      font-size: 12px;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center mb-5">MedCheck: Scientific Claim Verifier</h1>
+
+  <div class="upload-section">
+    <h3 class="mb-4">Upload Scientific Paper</h3>
+    <div class="mb-4">
+      <input type="file" id="pdfFile" class="form-control" accept=".pdf"/>
+    </div>
+    <button onclick="uploadPDF()" class="btn btn-primary">Upload & Parse</button>
+  </div>
+
+  <div class="search-container">
+    <h3 class="mb-4">Enter Your Claim</h3>
+    <div class="search-box">
+      <input type="text" id="claimInput" class="search-input" placeholder="Enter your scientific claim here..."disabled>
+      <button onclick="checkClaim()" class="search-button"id="searchButton" disabled>
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="threshold-control">
+      <label for="relevanceThreshold">Relevance Threshold: <span id="thresholdValue">70</span>%</label>
+      <input type="range" class="threshold-slider" id="relevanceThreshold" min="0" max="100" value="70">
+    </div>
+    <div class="progress-container mt-4">
+      <div class="progress-bar">
+        <div class="progress-bar-fill"></div>
+      </div>
+      <div class="progress-text"></div>
+      <div class="progress-detail"></div>
+    </div>
+  </div>
+
+  <div id="resultsContainer" class="results-container">
+    <h3 class="mb-4">Results</h3>
+    <div id="resultsContent"></div>
+  </div>
+</div>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  let paperFolder = "";
+
+  document.getElementById('relevanceThreshold').addEventListener('input', function(e) {
+    document.getElementById('thresholdValue').textContent = e.target.value;
+  });
+
+  function uploadPDF() {
+    document.getElementById('claimInput').disabled = true;
+    document.getElementById('searchButton').disabled = true;
+
+    const file = document.getElementById("pdfFile").files[0];
+    if (!file) {
+      alert("Please select a PDF file first.");
+      return;
+    }
+    let formData = new FormData();
+    formData.append("file", file);
+
+    const progressBar = document.querySelector('.progress-bar-fill');
+    const progressText = document.querySelector('.progress-text');
+    const progressDetail = document.querySelector('.progress-detail');
+
+    progressBar.classList.add('loading');
+    progressText.textContent = 'Processing PDF...';
+    progressDetail.textContent = 'This may take a few moments';
+
+    fetch("/upload_pdf", {
+      method: "POST",
+      body: formData
+    })
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) {
+        throw new Error(data.error);
+      }
+      paperFolder = data.paper_folder;
+      progressBar.classList.remove('loading');
+      progressText.textContent = 'Processing complete!';
+      progressDetail.textContent = 'You can now enter your claim to check.';
+      setTimeout(() => {
+        progressText.textContent = '';
+        progressDetail.textContent = '';
+      }, 3000);
+
+      // NOW: Chain extract_claims and enable input/search only after done!
+      fetch("/extract_claims", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ paper_folder: paperFolder })
+      })
+      .then(resp => resp.json())
+      .then(extractData => {
+        if (extractData.error) throw new Error(extractData.error);
+        document.getElementById('claimInput').disabled = false;
+        document.getElementById('searchButton').disabled = false;
+        alert("PDF uploaded and claims extracted successfully! You can now enter your claim to check.");
+      })
+      .catch(err => {
+        document.getElementById('claimInput').disabled = true;
+        document.getElementById('searchButton').disabled = true;
+        alert("Claim extraction failed: " + err.message);
+      });
+    })
+    .catch(err => {
+      document.getElementById('claimInput').disabled = true;
+      document.getElementById('searchButton').disabled = true;
+      progressBar.classList.remove('loading');
+      progressText.textContent = 'Upload failed';
+      progressDetail.textContent = err.message || 'Please try again';
+      alert("Upload failed.");
+    });
+  }
+
+  function checkClaim() {
+    const inputClaim = document.getElementById("claimInput").value.trim();
+    if (!inputClaim) {
+      alert("Please enter a claim to check.");
+      return;
+    }
+    if (!paperFolder) {
+      alert("Please upload a PDF first.");
+      return;
+    }
+
+    const threshold = document.getElementById("relevanceThreshold").value;
+
+    const progressBar = document.querySelector('.progress-bar-fill');
+    const progressText = document.querySelector('.progress-text');
+    const progressDetail = document.querySelector('.progress-detail');
+
+    progressBar.style.width = '0%';
+    progressBar.classList.add('loading');
+    progressText.textContent = 'Starting claim verification...';
+    progressDetail.textContent = '';
+
+    const searchIcon = document.querySelector('.search-button i');
+    searchIcon.classList.add('loading');
+
+    fetch("/check_claim", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        paper_folder: paperFolder,
+        input_claim: inputClaim,
+        relevance_threshold: parseInt(threshold)
+      })
+    })
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) {
+        throw new Error(data.error);
+      }
+      displayResults(data);
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('Error checking claim: ' + error.message);
+    })
+    .finally(() => {
+      searchIcon.classList.remove('loading');
+      progressBar.classList.remove('loading');
+      progressText.textContent = '';
+      progressDetail.textContent = '';
+    });
+  }
+
+  function getStatusBadgeClass(label) {
+    if (!label) return "";
+    let lbl = label.trim().toLowerCase();
+    if (lbl === "supported") return "status-badge supported";
+    if (lbl === "refuted") return "status-badge refuted";
+    if (lbl === "partially supported") return "status-badge partially-supported";
+    if (lbl === "partially refuted") return "status-badge partially-refuted";
+    if (lbl === "unverified") return "status-badge unverified";
+    if (lbl === "not relevant") return "status-badge not-relevant";
+    return "";
+  }
+  function getClaimResultClass(label) {
+    if (!label) return "";
+    let lbl = label.trim().toLowerCase();
+    if (lbl === "supported") return "claim-result supported";
+    if (lbl === "refuted") return "claim-result refuted";
+    if (lbl === "partially supported") return "claim-result partially-supported";
+    if (lbl === "partially refuted") return "claim-result partially-refuted";
+    if (lbl === "unverified") return "claim-result unverified";
+    if (lbl === "not relevant") return "claim-result not-relevant";
+    return "claim-result";
+  }
+
+  function displayResults(data) {
+    const resultsContainer = document.getElementById("resultsContainer");
+    const resultsContent = document.getElementById("resultsContent");
+
+    if (!data.results || data.results.length === 0) {
+      resultsContent.innerHTML = `
+        <div class="alert alert-info">
+          No relevant claims or table evidence found.
+        </div>
+      `;
+    } else {
+      let html = `
+        <div class="alert alert-success mb-4">
+          Found ${data.results.length} pieces of relevant evidence.
+        </div>
+      `;
+
+      data.results.forEach(result => {
+        html += `
+          <div class="${getClaimResultClass(result.label)}">
+            <p><strong>Evidence Type:</strong> ${result.evidence_type}</p>
+            <p><strong>User's Input Claim:</strong> ${result.input_claim}</p>
+            ${
+              result.evidence_type === "Table"
+                ? (
+                    `<p><strong>Table Reference:</strong> ${result.table_reference}</p>
+                    <div class="table-container"><h5>Table Evidence</h5>${result.table_html}</div>`
+                  )
+                : `<p><strong>Evidence:</strong> ${result.evidence}</p>`
+            }
+            <p><strong>Relevance Score:</strong> ${result.relevance_score}%</p>
+            <span class="${getStatusBadgeClass(result.label)}">
+              ${result.label}
+            </span>
+            <p><strong>Rationale:</strong><br>
+              <div class="alert alert-secondary" style="white-space: pre-line; margin-top: 6px;">
+                ${result.rationale}
+              </div>
+            </p>
+          </div>
+        `;
+      });
+
+      resultsContent.innerHTML = html;
+    }
+
+    resultsContainer.style.display = 'block';
+  }
+
+</script>
+</body>
+</html>

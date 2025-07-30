@@ -1,0 +1,58 @@
+Microorganisms 2022, 10,434
+12 of 14
+composition by using other methodologies, such as Mi-Seq sequencing or 16S sequencing.
+that would allow us to properly characterize the changes in all of the bacterial species
+in the human gut. Finally, we should evaluate the impact of sucralose consumption
+on glucose and insulin blood values using a different method to OGTT that allows for
+better reproducibility.
+5. Conclusions
+This clinical trial demonstrates, for the first time, that consumption of 48 mg of
+sucralose every day for ten weeks induces gut dysbiosis by increasing Blautia coccoides and
+decreasing Lactobacillus acidophilus in healthy non-insulin-resistant young adults. As far as
+we know, this is one of the first long-term clinical trials showing that sucralose amounts,
+far lower than the suggested ADI, alter the balance of the gut microbiome, while also
+being associated with significant elevations in AUCG and serum insulin in response to
+glucoseloads
+Author Contributions: Conceptualization, G.M. and G.E.; methodology, L.A.M.-G., N.B.-H., K.L.D.L.
+V.M.M.-M., A.J.E.-F., M.C.-A., M.E.-V., M.L.-H. and A.R.-B.; software data acquisition, M.A.C.-S.,
+R.V-S., J.M.C.-A., A.A.-L. and M.A.D.L.-N.; formal analysis, L.A.M.-G., N.B.-H., M.A.C.-S., R.V-S.,
+ J.M.C.-A., A.A.-L., M.A.D.L.-N. and G.E.,; data curation, L.A.M.-G., N.B.-H., G.M. and G.E.; writing
+original draft preparation, L.A.M.-G. and G.E.; writing-review and editing, L.A.M.-G., N.B.-H.,
+K.L.D.L., V.M.M.-M., A.J.E.-F., M.C.-A., M.E.-V., M.L.-H., A.R.-B., M.A.C.-S., R.V.-S., J.M.C.-A., A.A.-L.,
+M.A.D.L.-N., G.M. and G.E.; funding acquisition, G.M. and G.E. All authors have read and agreed to
+the published version of the manuscript.
+Funding: This work was supported by grants no. SALUD-2016-261575 and SALUD-2017-02-290345
+from the Fondo Sectorial de Investigacion y Desarrollo en Salud y Seguridad Social SS/IMSS /ISSSTE/
+CONACYT-México to GM and GE, respectively. This work was also supported by the Internal Project
+CICESE 685-107 to MADLN.
+Institutional Review Board Statement: The study was conducted in rigorous adherence to the
+principles described in the 1964 Declaration of Helsinki and its posterior amendment in 2013 and
+approved by the Ethics Committee of the General Hospital of Mexico with registration numbers of the
+ethical code approval DI/16/301/03/022. This study contains partial results of the work registered at
+clinicaltrials.gov (identifier code: NCT03703141) and meets the Consolidated Standards of Reporting
+Trials (CONSORT) guidelines.
+Informed Consent Statement: Informed consent was obtained from all subjects involved in
+the study.
+Data Availability Statement: The data presented in this study are available upon request.
+Acknowledgments: LAM-G thanks financial support as a Postdoctoral Research Fellow in the
+General Hospital of Mexico by grant no. SALUD-2017-02-290345 from the Fondo Sectorial de
+Investigacion y Desarrollo en Salud y Seguridad Social SS /IMSS /ISSSTE /CONACYT-México.
+Conflicts of Interest: The authors declare no conflict of interest regarding the publication of
+this article.
+References
+1.
+Chattopadhyay, S.; Raychaudhuri, U.; Chakraborty, R. Artificial sweeteners—A review. J. Food Sci. Technol. 2014, 51, 611-621.
+[CrossRef]
+2.
+ Suez, J.; Korem, T.; Zeevi, D.; Zilberman-Schapira, G.; Thaiss, C.A.; Maza, O.; Israeli, D.; Zmora, N.; Gilad, S.; Weinberger, A.; et al.
+Artificial sweeteners induce glucose intolerance by altering the gut microbiota. Nature 2014, 514, 181-186. [CrossRef]
+Wang, Q.P; Browman, D.; Herzog, H.; Neely, G.G. Non-nutritive sweeteners possess a bacteriostatic effect and alter gut microbiota
+3.
+in mice. PLoS ONE 2018, 13, e0199080. [CrossRef] [PubMed]
+ Bian, X.; Chi, L.; Gao, B.; Tu, P.; Ru, H.; Lu, K. Gut microbiome response to sucralose and its potential role in inducing liver
+?
+inflammation in mice. Front. Physiol. 2017, 8, 487. [CrossRef]
+5.
+Vetrani, C.; Maukonen, J.; Bozzetto, L.; Della Pepa, G.; Vitale, M.; Costabile, G.; Riccardi, G.; Rivellese, A.A.; Saarela, M.; Annuzzi
+G. Diets naturally rich in polyphenols and /or long-chain n-3 polyunsaturated fatty acids differently affect microbiota composition
+in high-cardiometabolic-risk individuals. Acta Diabetol. 2020, 57, 853-860. [CrossRef] [PubMed]

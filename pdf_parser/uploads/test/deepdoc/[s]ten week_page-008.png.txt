@@ -1,0 +1,59 @@
+Microorganisms 2022,10,434
+8 of 14
+Besides examining the effect of sucralose on blood glucose and insulin, we also
+investigated whether this NAS affected the gut microbiome balance. For Actinobacteria,
+ there were no differences between control and sucralose groups when analyzing the relative
+ abundance of Bifidobacterium longum at the beginning and the end of the study (Figure 4A).
+We found a similar trend for Bacteroidetes, where the relative abundance of Bacteroides
+uniformis showed no differences between control and sucralose groups all along with the
+ study (Figure 4B). For Firmicutes, volunteers drinking sucralose for ten weeks exhibited a
+significant O.6-fold decrease in the relative abundance of Lactobacillus acidophilus compared
+to that found basally (p = 0.03) (Figure 4C). In parallel, sucralose intake for ten weeks
+induced significant 3 and 4-fold increases in the abundance of Blautia coccoides compared to
+the beginning of the study (p = 0.01) and the control group (p = 0.008) (Figure 4D).
+B
+80
+mis
+60-
+1
+40-
+100
+20-
+0
+20
+ControlSucralose
+ControlSucralose
+ControlSucralose
+ControlSucralose
+10 weeks
+0 weeks
+Oweeks
+10weeks
+C
+D
+P= 0.008
+P=0.01
+15
+15-
+P=0.03
+10
+sh
+Control SucraloseControl Sucralose
+Control Sucralose Control Sucralose
+0 weeks
+10 weeks
+0 weeks
+10weeks
+Figure 4. Effect of sucralose consumption on the relative abundance of Actinobacteria, Bacteroidetes,
+and Firmicutes. (A) For the phylum Actinobacteria, there were no differences between control or
+sucralose groups in the relative abundance of Bifidobacterium longum at the beginning (o weeks) or
+end (10 weeks) of the study. (B) For the phylum Bacteroidetes, there were no differences between
+control or sucralose groups in the relative abundance of Bacteroides uniformis at the beginning or end
+of the study. (C) For the phylum Firmicutes, participants drinking sucralose for ten weeks exhibited
+ a significant decrease in the relative abundance of Lactobacillus acidophilus compared to the beginning
+of the study. (D) Volunteers consuming sucralose for ten weeks showed a significant increase in
+the relative abundance of Blautia coccoides compared to the beginning of the study and the control
+group. We express data as box plots. Depending on the group comparison, we estimated significant
+differences using the Wilcoxon matched-pairs signed-rank test or the Mann-Whitney U test. We
+calculated the fold change of the relative bacterial abundance by normalizing its corresponding value
+to 1 at the beginning of the study. We considered a difference as significant when p < 0.05.

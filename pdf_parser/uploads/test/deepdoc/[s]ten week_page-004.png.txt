@@ -1,0 +1,50 @@
+Microorganisms 2022, 10, 434
+4 of 14
+USA). We used the Spearman's correlation model to calculate coefficients (r) and p values
+of the changes in bacterial abundance with AUC of insulin (AUCI) and AUC of glucose
+(AUCG) in control and sucralose groups, using the R i386 3.5.2 terminal. We considered a
+difference as significant when p < 0.05.
+3. Results
+Figure 1 illustrates the selection process of participants enrolled in the study. After
+ meeting inclusion and exclusion criteria, we eliminated seven participants from the study
+because they refused to attend at least 80% of weekly appointments. (Figure 1).
+Participants that met eligible criteria (n= 63):
+1)Age 18-35 years
+2)HOMA-IR≤2.5
+ 3)BMI 18.5-29.9 kg/m2
+4) Acceptance to adhere to a dietary plan and
+avoid consuming other sources of NAS
+5)  Acceptance to sign the informed consent 
+Exclusion criteria:
+1)Diagnosis or treatment for non-communicable
+ diseases, endocrine disorders, infectious
+diseases, malabsorption disorder, short bowel
+syndrome, functional gastrointestinal
+ disorders, and inflammatory or autoimmune 
+ disease
+ 2)Use of antibiotics for the last 6 months
+ 3) Pregnancy or lactation
+Participants originally enrolled in the study (n=47)
+OGTT
+OGTT
+Control (n=23)
+Sucralose 48 mg (n=24)
+ Stool collection
+Stool collection
+ Elimination criteria:
+1）Refusal to attend at least 80%
+ Ten weeks of follow-up
+ of weekly appointments
+Participants who completed the intervention (n=40)
+OGTT
+OGTT
+Control (n=20)
+ Sucralose 48 mg (n=20)
+ Stool collection
+Stool collection
+Statistical analysis of changes in the microbiota
+ composition and the glucose and insulin blood levels
+during an oral glucose tolerance test
+ Figure 1. Schematic flow chart showing the selection process of participants enrolled in the study.
+Homeostasis model assessment of insulin resistance (HOMA-IR); body mass index (BMI); non-caloric
+artificial sweeteners (NAS); oral glucose tolerance test (OGTT).
