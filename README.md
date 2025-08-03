@@ -140,8 +140,7 @@ MedCheck/
 - **Table-Centric Reasoning**: Retrieval and fact-checking are optimized for table evidence, a key gap in existing medical QA systems.
 - **Hybrid Parsing**: Combines page layout images and DeepDoc-extracted content for robust data extraction.
 - **Interactive UI**: Both parser and RAG modules have user-friendly web interfaces.
-- **Explainable Labels**: System provides both a decision (e.g., Supported/Refuted) and a concise rationale.
-- **Planned TART Integration**: (Future) Ability to call advanced numerical tool modules only when needed for complex calculations.
+- **Explainable Labels**: System provides both a decision (e.g., Supported/Refuted) and a concise rationale with step-by-step concise tool-augmented explanations.
 
 ---
 
